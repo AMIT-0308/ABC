@@ -14,5 +14,7 @@ public class Browser {
 		driver.manage().window().maximize();
 		return driver;
 	}
-
+public void newMethod() {
+	System.out.println("new method added into maven branch");
+}
 }
